@@ -29,56 +29,59 @@ for f in glob.glob('cardxml0/TextAsset/*txt'):
 		cardsoup = BeautifulSoup(cardfile.read(), features="xml")
 
 	card = cardsoup.find('Entity')
+
+	"""
 	collect = card.find('Tag', {'name':'Collectible'})
 	if collect:
 		collect = collect.get('value')
 	if collect != '1':
 		pass
+	"""
 
-	else:
-		cardId = card.get('CardID')
-		cards[cardId] = {}
+	#else:
+	cardId = card.get('CardID')
+	cards[cardId] = {}
 
-		tags = card.find_all('Tag')
-		for tag in tags:
-			tagval = False
-			tagname = tag.get('name')
-			if tag.get('type') == 'String':
-				tagval = tag.find('enUS').text.encode('utf-8')
-			elif tag.get('type') == 'Bool':
-				if tag.get('value') == '1':
-					tagval = True
-			else:
-				tagval = tag.get('value')
+	tags = card.find_all('Tag')
+	for tag in tags:
+		tagval = False
+		tagname = tag.get('name')
+		if tag.get('type') == 'String':
+			tagval = tag.find('enUS').text.encode('utf-8')
+		elif tag.get('type') == 'Bool':
+			if tag.get('value') == '1':
+				tagval = True
+		else:
+			tagval = tag.get('value')
 
-			if tagval:
-				cards[cardId][tagname] = tagval
+		if tagval:
+			cards[cardId][tagname] = tagval
 
-		power = card.find('Power')
-		if power:
-			requirements = power.find_all('PlayRequirement')
-			powerval = {}
-			for p in requirements:
-				powerval[p.get('reqID')] = p.get('param')
+	power = card.find('Power')
+	if power:
+		requirements = power.find_all('PlayRequirement')
+		powerval = {}
+		for p in requirements:
+			powerval[p.get('reqID')] = p.get('param')
 
-			if powerval:
-				cards[cardId]['Requirements'] = powerval
+		if powerval:
+			cards[cardId]['Requirements'] = powerval
 
-		entourage = card.find_all('EntourageCard')
-		entourageval = []
+	entourage = card.find_all('EntourageCard')
+	entourageval = []
 
-		for e in entourage:
-			entourageval.append(e.get('cardID'))
+	for e in entourage:
+		entourageval.append(e.get('cardID'))
 
-		if entourageval:
-			cards[cardId]['Entourage'] = entourageval
+	if entourageval:
+		cards[cardId]['Entourage'] = entourageval
 
-		#elif attrname S== 'ReferencedTag':
-			#referencedtagval = False
+	#elif attrname S== 'ReferencedTag':
+		#referencedtagval = False
 
 
 
-		#now update the values with the modifiers
+	#now update the values with the modifiers
 
 print json.dumps(cards)
 
