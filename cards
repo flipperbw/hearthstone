@@ -472,6 +472,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 28.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "1": "",
             "11": ""
@@ -717,6 +720,9 @@
         "HowToGetThisCard": "Unlocked at Level 4.",
         "HowToGetThisGoldCard": "Unlocked at Level 36.",
         "Rarity": "1",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "12": "1"
         }
@@ -911,6 +917,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 23.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Windfury"
+        ],
         "Requirements": {
             "1": "",
             "11": ""
@@ -933,6 +942,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 15.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "1": "",
             "11": ""
@@ -1771,6 +1783,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 23.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Charge"
+        ],
         "Requirements": {
             "1": "",
             "11": "",
@@ -2170,7 +2185,10 @@
         "FlavorText": "Pirates are into this new fad called \"Planking\".",
         "Health": "1",
         "Race": "23",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Charge"
+        ]
     },
     "CS2_146o": {
         "CardName": "Sharpened",
@@ -2622,6 +2640,9 @@
         "Health": "1",
         "Race": "20",
         "Rarity": "1",
+        "ReferencedTag": [
+            "Silence"
+        ],
         "Requirements": {
             "1": "",
             "22": ""
@@ -3047,6 +3068,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 28.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "10": "20",
             "2": "",
@@ -3113,7 +3137,10 @@
         "HowToGetThisCard": "Unlocked at Level 8.",
         "HowToGetThisGoldCard": "Unlocked at Level 43.",
         "Race": "20",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Charge"
+        ]
     },
     "DS1_178e": {
         "CardName": "Charge",
@@ -3196,7 +3223,10 @@
         "EnchantmentIdleVisual": "0",
         "Faction": "3",
         "FlavorText": "The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.",
-        "Rarity": "4"
+        "Rarity": "4",
+        "ReferencedTag": [
+            "Cant Be Damaged"
+        ]
     },
     "DS1_233": {
         "ArtistName": "Dave Allsop",
@@ -3265,6 +3295,9 @@
         "FlavorText": "He was sent by the Lich King to disrupt the Argent Tournament.   We can pretty much mark that a failure.",
         "Health": "5",
         "Rarity": "5",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "1": "",
             "22": "",
@@ -3850,6 +3883,9 @@
         "FlavorText": "Spellbreakers can rip enchantments from magic-wielders.  The process is painless and can be performed on an outpatient basis.",
         "Health": "3",
         "Rarity": "1",
+        "ReferencedTag": [
+            "Silence"
+        ],
         "Requirements": {
             "1": "",
             "22": "",
@@ -3968,7 +4004,10 @@
         "Faction": "2",
         "FlavorText": "She carries a shield, but only so she can give it to someone she can stand behind.",
         "Health": "3",
-        "Rarity": "3"
+        "Rarity": "3",
+        "ReferencedTag": [
+            "Taunt"
+        ]
     },
     "EX1_059": {
         "ArtistName": "Tom Fleming",
@@ -4102,6 +4141,9 @@
         "FlavorText": "She promises not to tell anyone about that thing you did last night with that one person.",
         "Health": "2",
         "Rarity": "3",
+        "ReferencedTag": [
+            "Secret"
+        ],
         "TriggerVisual": true
     },
     "EX1_080o": {
@@ -4175,6 +4217,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 36.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Charge"
+        ],
         "TriggerVisual": true
     },
     "EX1_084e": {
@@ -4273,7 +4318,10 @@
         "Faction": "2",
         "FlavorText": "You wouldn\u2019t think that Argus would need this much defending.   But it does.",
         "Health": "3",
-        "Rarity": "3"
+        "Rarity": "3",
+        "ReferencedTag": [
+            "Taunt"
+        ]
     },
     "EX1_093e": {
         "CardName": "Hand of Argus",
@@ -4549,7 +4597,10 @@
         "EnchantmentIdleVisual": "0",
         "Faction": "3",
         "FlavorText": "Rogues conceal everything but their emotions.  You can't get 'em to shut up about feelings.",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Stealth"
+        ]
     },
     "EX1_128e": {
         "CardName": "Concealed",
@@ -4832,7 +4883,10 @@
         "EnchantmentIdleVisual": "0",
         "Faction": "3",
         "FlavorText": "Druids call it the \"Mark of Nature.\"  Everyone else calls it \"needing a bath.\"",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Taunt"
+        ]
     },
     "EX1_155a": {
         "AttackVisualType": "1",
@@ -4896,7 +4950,10 @@
         "EnchantmentIdleVisual": "0",
         "Faction": "3",
         "FlavorText": "\"Reforestation\" is suddenly a terrifying word.",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Deathrattle"
+        ]
     },
     "EX1_158e": {
         "CardName": "Soul of the Forest",
@@ -5087,7 +5144,11 @@
         "Faction": "3",
         "FlavorText": "Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!",
         "Health": "4",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Taunt",
+            "Charge"
+        ]
     },
     "EX1_165a": {
         "AttackVisualType": "1",
@@ -5157,7 +5218,10 @@
         "Faction": "3",
         "FlavorText": "These guys just show up and start Keeping your Groves without even asking.",
         "Health": "4",
-        "Rarity": "3"
+        "Rarity": "3",
+        "ReferencedTag": [
+            "Silence"
+        ]
     },
     "EX1_166a": {
         "AttackVisualType": "1",
@@ -5258,7 +5322,10 @@
         "Faction": "3",
         "FlavorText": "Young Night Elves love to play \"Who can get the Ancient of War to Uproot?\"  You lose if you get crushed to death.",
         "Health": "5",
-        "Rarity": "4"
+        "Rarity": "4",
+        "ReferencedTag": [
+            "Taunt"
+        ]
     },
     "EX1_178a": {
         "AttackVisualType": "1",
@@ -5421,6 +5488,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 47.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "1": "",
             "11": ""
@@ -5471,6 +5541,9 @@
         "FlavorText": "Spirit wolves are like regular wolves with pom-poms.",
         "Rarity": "3",
         "Recall": "1",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "Requirements": {
             "12": "1"
         }
@@ -5592,6 +5665,9 @@
         "FlavorText": "The ethereals are wrapped in cloth to give form to their non-corporeal bodies. Also because it's nice and soft.",
         "Health": "3",
         "Rarity": "3",
+        "ReferencedTag": [
+            "Secret"
+        ],
         "TriggerVisual": true
     },
     "EX1_274e": {
@@ -5744,6 +5820,9 @@
         "Faction": "3",
         "FlavorText": "What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.",
         "Rarity": "3",
+        "ReferencedTag": [
+            "Counter"
+        ],
         "Secret": true
     },
     "EX1_289": {
@@ -5794,6 +5873,9 @@
         "Faction": "3",
         "FlavorText": "Ice is nice, and will suffice!",
         "Rarity": "4",
+        "ReferencedTag": [
+            "Cant Be Damaged"
+        ],
         "Secret": true
     },
     "EX1_295o": {
@@ -6479,6 +6561,9 @@
         "FlavorText": "\"I'm not saying you can dodge fireballs.  I'm saying with this shield, you won't have to.\"",
         "Health": "2",
         "Rarity": "1",
+        "ReferencedTag": [
+            "Divine Shield"
+        ],
         "Requirements": {
             "1": "",
             "2": "",
@@ -6587,6 +6672,9 @@
         "HowToGetThisCard": "Unlocked at Level 1.",
         "HowToGetThisGoldCard": "Unlocked at Level 23.",
         "Rarity": "2",
+        "ReferencedTag": [
+            "Divine Shield"
+        ],
         "Requirements": {
             "1": "",
             "11": ""
@@ -7045,7 +7133,10 @@
         "Faction": "3",
         "FlavorText": "If he's raging now, just wait until he gets nerfed.",
         "Health": "3",
-        "Rarity": "1"
+        "Rarity": "1",
+        "ReferencedTag": [
+            "Windfury"
+        ]
     },
     "EX1_414": {
         "ArtistName": "Glenn Rane",
@@ -7294,6 +7385,9 @@
         "EnchantmentIdleVisual": "0",
         "FlavorText": "First Lesson: Put the pointy end in the other guy.",
         "Rarity": "3",
+        "ReferencedTag": [
+            "Secret"
+        ],
         "TriggerVisual": true
     },
     "EX1_536e": {
@@ -7338,6 +7432,9 @@
         "EnchantmentIdleVisual": "0",
         "FlavorText": "You must read the name of this card out loud each time you play it.",
         "Rarity": "1",
+        "ReferencedTag": [
+            "Charge"
+        ],
         "Requirements": {
             "23": "0"
         }
@@ -7407,7 +7504,11 @@
         "EnchantmentIdleVisual": "0",
         "Faction": "3",
         "FlavorText": "Not only does it reveal your enemies, but its also great for parties!",
-        "Rarity": "3"
+        "Rarity": "3",
+        "ReferencedTag": [
+            "Stealth",
+            "Secret"
+        ]
     },
     "EX1_549": {
         "ArtistName": "Alex Horley Orlandelli",
@@ -7423,6 +7524,9 @@
         "Faction": "3",
         "FlavorText": "The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.",
         "Rarity": "4",
+        "ReferencedTag": [
+            "Cant Be Damaged"
+        ],
         "Requirements": {
             "10": "20",
             "11": ""
@@ -7754,7 +7858,10 @@
         "EnchantmentIdleVisual": "0",
         "Faction": "3",
         "FlavorText": "\"I think I'll just nap under these trees. Wait... AAAAAHHH!\" - Blinkfizz, the Unfortunate Gnome",
-        "Rarity": "4"
+        "Rarity": "4",
+        "ReferencedTag": [
+            "Charge"
+        ]
     },
     "EX1_572": {
         "ArtistName": "Gabor Szikszai",
@@ -7801,7 +7908,10 @@
         "Faction": "3",
         "FlavorText": "Yes, he's a demigod. No, he doesn't need to wear a shirt.",
         "Health": "8",
-        "Rarity": "5"
+        "Rarity": "5",
+        "ReferencedTag": [
+            "Taunt"
+        ]
     },
     "EX1_573a": {
         "AttackVisualType": "7",
@@ -7973,7 +8083,10 @@
         "Faction": "3",
         "FlavorText": "Sometimes he forgets and just wanders into someone else's game.",
         "Health": "5",
-        "Rarity": "3"
+        "Rarity": "3",
+        "ReferencedTag": [
+            "Spellpower"
+        ]
     },
     "EX1_584e": {
         "CardName": "Teachings of the Kirin Tor",
@@ -8014,6 +8127,9 @@
         "HowToGetThisCard": "Unlocked at Level 8.",
         "HowToGetThisGoldCard": "Unlocked at Level 45.",
         "Rarity": "1",
+        "ReferencedTag": [
+            "Windfury"
+        ],
         "Requirements": {
             "1": "",
             "2": "",
@@ -8043,7 +8159,10 @@
         "Faction": "3",
         "FlavorText": "The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.",
         "Health": "3",
-        "Rarity": "4"
+        "Rarity": "4",
+        "ReferencedTag": [
+            "Divine Shield"
+        ]
     },
     "EX1_590e": {
         "CardName": "Shadows of M'uru",
@@ -8378,7 +8497,10 @@
         "Faction": "3",
         "FlavorText": "The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.",
         "Health": "3",
-        "Rarity": "3"
+        "Rarity": "3",
+        "ReferencedTag": [
+            "Secret"
+        ]
     },
     "EX1_612o": {
         "CardName": "Power of the Kirin Tor",
@@ -9262,6 +9384,9 @@
         "FlavorText": "She's actually a male tauren.  People don't call him \"Master of Disguise\" for nothing.",
         "Health": "4",
         "Rarity": "3",
+        "ReferencedTag": [
+            "Stealth"
+        ],
         "Requirements": {
             "1": "",
             "2": "",
@@ -9744,6 +9869,9 @@
         "FlavorText": "Hogger is super powerful. If you kill him, it's because he <i>let</i> you.",
         "Health": "4",
         "Rarity": "5",
+        "ReferencedTag": [
+            "Taunt"
+        ],
         "TriggerVisual": true
     },
     "NEW1_040t": {
